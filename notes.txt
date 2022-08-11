@@ -1,4 +1,6 @@
-http://localhost:4545/xyzcompany/customers
+GET http://localhost:4545/xyzcompany/customers
+
+
 
 {
     "customerId": 1,
@@ -12,7 +14,7 @@ http://localhost:4545/xyzcompany/customers
     }
 }
 ---------------------------------------------------------------------------------------------------------
-http://localhost:4545/xyzcompany/customers
+GET  http://localhost:4545/xyzcompany/customers
 
 [
     {
@@ -149,7 +151,9 @@ http://localhost:4545/xyzcompany/customers
     }
 ]
 --------------------------------------------------------------------------------------------------------------------------
-http://localhost:4545/xyzcompany/customers
+POST    http://localhost:4545/xyzcompany/customers
+
+Write the below data in the body===>raw===json format
 
 {
     "customerId": 13,
@@ -163,12 +167,16 @@ http://localhost:4545/xyzcompany/customers
     }
 }
 --------------------------------------------------------------------------------------------------------------------------
-http://localhost:4545/xyzcompany/customers/2
+PUT  http://localhost:4545/xyzcompany/customers/2
+
+
+Write the below data in the body===>raw===json format
+
 
 {
          "dateOfExpiry": "2022-08-11" 
 }
-
-
+---------------------------------------------------------------------
+DELETE  http://localhost:4545/xyzcompany/customers/2
 
 
