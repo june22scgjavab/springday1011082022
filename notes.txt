@@ -1,0 +1,174 @@
+http://localhost:4545/xyzcompany/customers
+
+{
+    "customerId": 1,
+    "emailId": "martin@infy.com",
+    "name": "Martin",
+    "dateOfBirth": "1980-10-21",
+    "passportDTO": {
+        "id": 1111,
+        "dateOfIssue": "2000-10-12",
+        "dateOfExpiry": "2010-10-12"
+    }
+}
+---------------------------------------------------------------------------------------------------------
+http://localhost:4545/xyzcompany/customers
+
+[
+    {
+        "customerId": 1,
+        "emailId": "martin@infy.com",
+        "name": "Martin",
+        "dateOfBirth": "1980-10-21",
+        "passportDTO": {
+            "id": 1111,
+            "dateOfIssue": "2000-10-12",
+            "dateOfExpiry": "2010-10-12"
+        }
+    },
+    {
+        "customerId": 2,
+        "emailId": "tim@infy.com",
+        "name": "Tim",
+        "dateOfBirth": "1985-11-23",
+        "passportDTO": {
+            "id": 2222,
+            "dateOfIssue": "2001-09-13",
+            "dateOfExpiry": "2011-09-13"
+        }
+    },
+    {
+        "customerId": 3,
+        "emailId": "jack@infy.com",
+        "name": "Jack",
+        "dateOfBirth": "1978-06-23",
+        "passportDTO": {
+            "id": 3333,
+            "dateOfIssue": "2005-10-23",
+            "dateOfExpiry": "2015-10-23"
+        }
+    },
+    {
+        "customerId": 4,
+        "emailId": "sunita@infy.com",
+        "name": "Sunita",
+        "dateOfBirth": "1978-06-23",
+        "passportDTO": {
+            "id": 4444,
+            "dateOfIssue": "2001-09-13",
+            "dateOfExpiry": "2011-09-13"
+        }
+    },
+    {
+        "customerId": 5,
+        "emailId": "abhay@infy.com",
+        "name": "Abhay",
+        "dateOfBirth": "1980-10-21",
+        "passportDTO": {
+            "id": 5555,
+            "dateOfIssue": "2006-05-06",
+            "dateOfExpiry": "2016-05-06"
+        }
+    },
+    {
+        "customerId": 6,
+        "emailId": "suresh@infy.com",
+        "name": "Suresh",
+        "dateOfBirth": "1978-06-23",
+        "passportDTO": {
+            "id": 6666,
+            "dateOfIssue": "1981-09-13",
+            "dateOfExpiry": "1991-09-13"
+        }
+    },
+    {
+        "customerId": 7,
+        "emailId": "radha@infy.com",
+        "name": "Radha",
+        "dateOfBirth": "1985-11-23",
+        "passportDTO": {
+            "id": 7777,
+            "dateOfIssue": "1998-09-13",
+            "dateOfExpiry": "2008-09-13"
+        }
+    },
+    {
+        "customerId": 8,
+        "emailId": "sohail@infy.com",
+        "name": "Sohail",
+        "dateOfBirth": "1980-10-21",
+        "passportDTO": {
+            "id": 8888,
+            "dateOfIssue": "2020-09-13",
+            "dateOfExpiry": "2030-09-13"
+        }
+    },
+    {
+        "customerId": 9,
+        "emailId": "sunita02@infy.com",
+        "name": "Sunita",
+        "dateOfBirth": "1980-07-13",
+        "passportDTO": {
+            "id": 9999,
+            "dateOfIssue": "2020-09-13",
+            "dateOfExpiry": "2030-09-13"
+        }
+    },
+    {
+        "customerId": 10,
+        "emailId": "jack02@infy.com",
+        "name": "Jack",
+        "dateOfBirth": "1974-12-16",
+        "passportDTO": {
+            "id": 9111,
+            "dateOfIssue": "2020-09-13",
+            "dateOfExpiry": "2030-09-13"
+        }
+    },
+    {
+        "customerId": 11,
+        "emailId": "sunita03@infy.com",
+        "name": "Sunita",
+        "dateOfBirth": "1999-05-23",
+        "passportDTO": {
+            "id": 9222,
+            "dateOfIssue": "2020-09-13",
+            "dateOfExpiry": "2030-09-13"
+        }
+    },
+    {
+        "customerId": 12,
+        "emailId": "sunita04@infy.com",
+        "name": "Sunita",
+        "dateOfBirth": "2000-10-13",
+        "passportDTO": {
+            "id": 9333,
+            "dateOfIssue": "2020-09-13",
+            "dateOfExpiry": "2030-09-13"
+        }
+    }
+]
+--------------------------------------------------------------------------------------------------------------------------
+http://localhost:4545/xyzcompany/customers
+
+{
+    "customerId": 13,
+    "emailId": "luther@infy.com",
+    "name": "Luther",
+    "dateOfBirth": "1986-11-21",
+    "passportDTO": {
+        "id": 8000,
+        "dateOfIssue": "2004-11-10",
+        "dateOfExpiry": "2014-11-10"
+    }
+}
+--------------------------------------------------------------------------------------------------------------------------
+http://localhost:4545/xyzcompany/customers/2
+
+{
+         "dateOfExpiry": "2022-08-11" 
+}
+
+
+
+
